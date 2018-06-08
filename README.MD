@@ -42,6 +42,7 @@ Admin Login      :
 Admin Login Data :
 
 E-mail   : admin@perpusnusantara.com
+
 Password : marvelcinematicuniverse
 
 Segera ganti password di halaman pengaturan akun, tidak bisa mengganti email! Kecuali melalui database langsung
