@@ -1,0 +1,11 @@
+{
+	"autoload": {
+		"classmap": [
+			"vendor/Flare/Network/Http",
+			"vendor/Flare/Components",
+			"vendor/Flare/Components/Database",
+			"app/http/models",
+			"vendor/phpmailer"
+		]
+	}
+}

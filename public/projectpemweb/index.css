@@ -1,0 +1,470 @@
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing: border-box;
+}
+body{
+	background-color: #f5f5f5;
+	font-family: product sans;
+}
+.wrapper-header{
+	width: 100%;
+	height: auto;
+}
+.container{
+	width: 100%;
+	height: 662px;
+	background-size: cover;
+	background-image: url('librarybooks.jpg');
+	background-position: center;
+}
+.overlay{
+	width: 100%;
+	height: 662px;
+	background: black;
+	opacity: 0.7;
+	position: absolute;
+}
+.text-header{
+	text-align: center;
+	position: relative;
+    float: right;
+	font-size: 24px;
+    font-family: product sans;
+    z-index: 99;
+    color: white;
+}
+.text-header li{
+	display: inline-block;
+	border: 2px solid white;
+	border-radius: 5px;
+	padding: 10px 15px;
+	color: white;
+	margin-top: 20px;
+	margin-right: 20px;
+	font-size: 20px;
+	transition: 0.30s ease;
+	cursor: pointer;
+}
+.regis:hover,.log:hover {
+	background-color: white;
+	color: black;
+}
+.text-wrapper{
+	text-align: center;
+	position: relative;
+    float: left;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 50px;
+    font-family: product sans;
+}
+.text-wrapper .lol{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 50px;
+	width: 200px;
+	margin: 0px auto;
+	font-size: 20px;
+	border: 4px solid white;
+	font-family: product sans;
+}
+.text-wrapper p:nth-child(2){
+	padding-bottom: 50px;
+}
+i{
+	font-size: 20px;
+	color: white;
+	margin-top: 150px;
+	cursor: pointer;
+}
+.text{
+	width: 100%;
+	height: auto;
+}
+
+/*
+=================
+Bagian Kelebihan
+=================
+*/
+
+.container2{
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+	height: auto;
+	padding-top: 90px;
+}
+.textcontainer2{
+	font-size: 40px;
+	text-align: center;
+	font-family: product sans;
+	margin-top: 60px;
+	color: #0b306b;
+}
+.underline{
+	width: 10%;
+	height: 4px;
+	background-color: #0b306b;
+}
+.kcontainer{
+	margin: 50px auto !important;
+	display: flex;
+	justify-content: space-between;
+    width: 90%;
+    height: auto;
+    background-color: transparent;
+    padding-bottom: 5px;
+    flex-flow: row wrap;
+}
+.kelebihan1:hover{
+	background-color: #0b306b;
+}
+.kelebihan1:hover h3,.kelebihan1:hover p,.kelebihan1:hover span{
+	color: #fff;
+}
+.kelebihan1{ 
+	width: 31%;
+	margin: 0px 5px; 
+	height: 400px;
+	background-color: white;
+	float: left;
+	font-family: product sans;
+	border-radius: 10px;
+	box-shadow: 0 12px 64px 10px rgba(80, 80, 80, 0.09);
+	transition: 0.30s ease;
+}
+.kelebihan1 span{
+	font-size: 100px;
+	color: #0b306b;
+	line-height: 200px;
+}
+.kelebihan1 h3{
+  text-align: center;
+  margin: 7px 0 20px 0;
+  font-size: 30px;
+  font-weight: 400;
+  color: #0b306b;
+}
+.kelebihan1 p{
+  text-align: center;
+  font-weight: 400;
+  font-size: 20px;
+  color: black;
+  line-height: 25px;
+  color: #0b306b;
+}
+
+/*
+===============
+Bagian kotak 4
+===============
+*/
+.container3{
+	width: 100%;
+	max-width: 1200px;
+	height: auto;
+	margin: 0 auto;	
+	padding-top: 130px;
+}
+.kotak1-2{
+	width: 100%;
+	height: auto;
+	background: transparent;
+	float: left;
+	/*padding-bottom: 80px;*/
+}
+.gambar1{
+	width: 45%;
+	height: 592px;
+	background: transparent;
+	left:	30px;
+	float: left;
+	position: relative;
+}
+.content{
+	width: 80%;
+	height: 400px;
+	background-size: cover;
+	float: right;
+}
+.img img{
+	width: 100%;
+	height: auto;
+}
+.textcontent{
+	width: 80%;
+	height: auto;
+	background-color: #ebebeb;
+	/*float: left;*/
+	position: absolute;
+	top: 207px;
+}
+.gambar2{
+	width: 45%;
+	height: 592px;
+	background: transparent	;
+	right: 30px;
+	float: right;
+	position: relative;
+}
+.content2{
+	width: 80%;
+	height: 400px;
+	background-size: cover;
+	/*float: left;*/
+}
+.textcontent2{
+	width: 80%;
+	height: auto;
+	background-color: #ebebeb;
+	position: absolute;	
+	top: 207px;
+	left: 120px;	
+}
+.kotak3-4{
+	width: 	100%;
+	height: 662px;
+	background-color: transparent;	
+	float: left;
+}
+.title{
+	font-size: 35px;
+	margin: 20px 0 0 10px;
+}
+.isi{
+	font-size: 18px;
+	margin: 20px 10px 10px 10px;
+	padding-bottom: 30px;	
+}
+
+/*
+=================
+Bagian Footer Web
+=================
+*/ 
+.last{
+	width: 100%;
+	height: 350px;
+	float: left;
+	background-image: url(blur.jpg);
+	background-size: cover;
+	background-position: center;
+}
+.text-last{
+	text-align: center;
+	position: relative;
+    float: left;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -20%);
+    color: white;
+    font-size: 50px;
+    font-family: product sans;
+}
+.text-last .lel{
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	font-family: product sans;
+	width: 30%;
+	height: 50px;
+	border: 2px solid white;
+	border-radius: 30px;
+	transform: translate(115%);
+	margin-top: 30px;
+	font-size: 20px;
+	line-height: 45px;
+	transition: 0.30s ease;
+	cursor: pointer;
+}
+.lel:hover{
+	background-color: white;
+	color: black;
+}
+.overlayf{
+	width: 100%;
+	height: 350px;
+	background: black;
+	opacity: 0.7;
+	position: absolute;
+}
+.wrapper-footer{
+	width: 100%;
+	height: auto;
+	background-color: red;
+	float:left;
+}
+.footer{
+	width: 100%;
+	padding:10px 0;
+	background-color: #f5f5f5;
+	
+	display:flex;
+	align-items:center;
+	justify-content:center;
+}
+.footer-last{
+	width: 100%;
+	height: 120px;
+	background-color: brown;
+	float: left;
+	text-align: center;
+	
+}
+.footer-last li{
+	display: inline-block;
+	margin-left: 20px;
+	font-size: 20px;
+	color: white;
+	line-height: 70px;
+}
+.footer-last p{
+	font-size: 12px;
+	color: white;
+}
+.fb{
+	width: 40px;
+	height: auto;
+	background-color: transparent;
+	margin-left: 25px;
+}
+.fb img{
+	width: 100%;
+}
+/*
+--------------+
+--------------+
+Reponsive word|
+--------------+
+--------------+
+*/
+@media only screen and (max-width: 768px){
+	.gambar1{
+		width: 64%;
+    	margin: 0 auto;
+    	float: none;
+    	left: unset;
+    }
+    .gambar3{
+		width: 64%;
+    	margin: 0 auto;
+    	float: none;
+    	left: unset;
+    }
+    .kotak3-4{
+    	height: unset;
+    }
+    .gambar4{
+    	width: 64%;
+    	margin: 0 auto;
+    	float: none;
+    	right: unset;
+    }
+    .content4{
+    	float: right;
+    }
+    .textcontent4{
+    	left: unset;
+    }
+    .gambar2{
+    	width: 64%;
+    	margin: 0 auto;
+    	float: none;
+    	right: unset;
+    }
+    .content2{
+    	float: right;
+    }
+    .kotak1-2{
+    	padding-bottom: unset;
+    }
+    .textcontent2{
+    	left: unset;
+    }
+    .kcontainer{	
+    	padding-bottom: unset;
+		margin: 50px auto !important;
+		display: block;
+    	width: 90%;
+    	height: auto;
+    	background-color: transparent;
+    	padding-bottom: 5px;
+    }
+    .kelebihan1{
+    	width: 	100%;
+    	margin-bottom: 25px;
+    }
+    .text p{
+    	font-size: 40px;
+    }
+    .text-wrapper .lol{
+    	font-size: 20px;
+    }
+    .text-last{
+    	font-size: 40px;
+    }
+    .text-last .lel{
+    	font-size: 16px;
+    }
+    /*.text-wrapper i{
+    	display: none;		
+    }*/
+}
+@media only screen and (max-width: 880px){
+
+	.gambar1{
+		width: 64%;
+    	margin: 0 auto;
+    	float: none;
+    	left: unset;
+    }
+    .kotak3-4{
+    	height: unset;
+    }
+    .gambar2{
+    	width: 64%;
+    	margin: 0 auto;
+    	float: none;
+    	right: unset;
+    }
+    .content2{
+    	float: right;
+    }
+    .kotak1-2{
+    	padding-bottom: unset;
+    }
+    .textcontent2{
+    	left: 0px !important;
+    }
+    /*.kcontainer{	
+    	padding-bottom: unset;
+    }
+    .kelebihan1{
+    	width: 	100%;
+    }
+    .text p{
+    	font-size: 40px;
+    }
+    .text-wrapper .lol{
+    	font-size: 20px;
+    }
+    .text-last{
+    	font-size: 40px;
+    }
+    .text-last .lel{
+    	font-size: 16px;
+    }*/
+}
+@media only screen and (max-width: 940px){
+	.textcontent2{
+		left: 92px;
+	}
+}
+
